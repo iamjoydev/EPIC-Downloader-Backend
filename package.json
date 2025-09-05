@@ -1,0 +1,21 @@
+{
+  "name": "dreamworld-epic-downloader",
+  "version": "1.0.0",
+  "description": "YouTube, Facebook & Instagram downloader with professional UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.2",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "instagram-scraper": "^1.0.0",
+    "fb-video-downloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
